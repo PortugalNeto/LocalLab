@@ -18,6 +18,12 @@ namespace LocalLab.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Visitantes()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
